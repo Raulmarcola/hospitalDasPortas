@@ -1,0 +1,25 @@
+{
+  "name": "hospitaldasportas-api",
+  "version": "1.0.0",
+  "description": "\"API para a prestadora de serviços e loja Hospital das Portas\"",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/index.js"
+  },
+  "author": "Raul Marçola, Tânia Boschi, Ivan Xavier",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "chalk": "^6.0.1",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "helmet": "^8.3.0",
+    "joi": "^18.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "morgan": "^1.12.1",
+    "mysql2": "^3.24.6"
+  }
+}
